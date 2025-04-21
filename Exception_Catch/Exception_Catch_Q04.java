@@ -1,5 +1,3 @@
-package javaapplication4;
-
 // 輸入模組
 import java.util.Scanner;
 
