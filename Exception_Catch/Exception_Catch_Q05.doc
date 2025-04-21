@@ -1,0 +1,26 @@
+📌題目：水果價錢輸入查詢與例外捕捉
+請查詢水果的價錢與計算總價並設計例外捕捉程式。
+
+(1) 先將已知的水果名稱及價格分別儲存在String陣列及int陣列
+    String[] productNames = { "Strawberry", "Apple", "Orange" };
+    int[] productPrices = { 159, 20, 17 };
+(2) 使用者查詢時會連續輸入 5 個索引編號
+
+輸出每一項索引編號所對應之水果名稱及價格；輸出所有項目後，輸出輸出Total總額）
+輸入中包含有不正確的陣列索引與格式的錯誤請以（try catch）方式處理異常：
+
+📌提示 : 
+如果輸入之索引編號超出陣列範圍（ArrayIndexOutOfBoundsException），輸出"索引錯誤 : "及所輸入之索引編號
+如所輸入之索引編號不是 int（InputMismatchException），輸出"輸入格式異常 : "及所輸入之索引編號
+注意：冒號為半形冒號、前後沒有空白
+
+📌範例：
+2 0 3 1 a   （測試時須直接複製及貼上）
+
+📌結果：
+Orange:17
+Strawberry:159
+索引錯誤:3
+Apple:20
+輸入格式異常:a
+Total:196
