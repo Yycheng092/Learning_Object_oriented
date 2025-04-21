@@ -1,7 +1,9 @@
+package javaapplication4;
+
 // 輸入模組
 import java.util.Scanner;
 
-public class Exception_Catch_Q01 {
+public class Exception_Catch_Q04 {
 
           public static void main(String[] args) {
 
@@ -25,4 +27,3 @@ public class Exception_Catch_Q01 {
                     }
           }
 }
-
