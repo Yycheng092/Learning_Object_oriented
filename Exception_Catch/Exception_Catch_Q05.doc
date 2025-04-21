@@ -11,7 +11,7 @@
 
 📌提示 : 
 如果輸入之索引編號超出陣列範圍（ArrayIndexOutOfBoundsException），輸出"索引錯誤 : "及所輸入之索引編號
-如所輸入之索引編號不是 int（InputMismatchException），輸出"輸入格式異常 : "及所輸入之索引編號
+如所輸入之索引編號不是 int（NumberFormatException），輸出"輸入格式異常 : "及所輸入之索引編號
 注意：冒號為半形冒號、前後沒有空白
 
 📌範例：
