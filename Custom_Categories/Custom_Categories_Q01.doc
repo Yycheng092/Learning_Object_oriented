@@ -1,5 +1,4 @@
 📌題目：多個圓形面積比較
-
 請設計一個 Circle 類別，且使用有參數建構子初始化半徑，並提供下列方法：
 (1)double getArea()：回傳圓形面積
 (2)double getPerimeter()：回傳圓形周長
