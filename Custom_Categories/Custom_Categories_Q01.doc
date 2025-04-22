@@ -4,6 +4,7 @@
 (1)double getArea()：回傳圓形面積
 (2)double getPerimeter()：回傳圓形周長
 (3)int getRadius()：取得半徑
+(4)使用 Math.PI 取得圓周率
 
 📌主程式功能：
 (1)使用者輸入n 個圓形的半徑（n 由使用者輸入），並建立 Circle 陣列來存放所有圓形。
